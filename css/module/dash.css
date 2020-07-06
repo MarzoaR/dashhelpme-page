@@ -1,0 +1,21 @@
+#dash {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+}
+
+#dash div {
+  width: 35%;
+  text-align: center;
+  color: var(--primary-color-fonts);
+}
+
+.dash--peso {
+  font-weight: 700;
+}
+
+#dash div img {
+  width: 100%;
+}
+
