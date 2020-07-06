@@ -1,0 +1,15 @@
+@import url('./module/header.css');
+
+/* variables */
+:root {
+  --primary-color: #e5e5e5;
+  --body-color: var(--primary-color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--body-color);
+  overflow-x: hidden;
+  height: 1000px;
+}
