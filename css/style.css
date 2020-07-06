@@ -1,4 +1,7 @@
+/* Importacion de fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+/* importacion de modulos */
+@import url('./module/buttoms.css');
 @import url('./module/header.css');
 @import url('./module/dash.css');
 @import url('./module/ranking.css');

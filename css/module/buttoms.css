@@ -1,0 +1,23 @@
+.btn {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--primary-color-fonts);
+}
+
+.btn--neomorph-primary {
+  border-radius: 50px;
+  background: #e5e5e5;
+  box-shadow:  20px 20px 30px #bbbbbb,
+              -20px -20px 30px #ffffff;
+}
+
+.btn--neomorph-sencundary {
+  border-radius: 50px;
+  background: #3191DF;
+  box-shadow:  20px 20px 30px #2a7bbe,
+              -20px -20px 30px #38a7ff;
+}
