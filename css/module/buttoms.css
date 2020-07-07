@@ -5,19 +5,20 @@
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
-  color: var(--primary-color-fonts);
 }
 
 .btn--neomorph-primary {
+  color: var(--primary-color-fonts);
   border-radius: 50px;
   background: #e5e5e5;
   box-shadow:  20px 20px 30px #bbbbbb,
               -20px -20px 30px #ffffff;
 }
 
-.btn--neomorph-sencundary {
+.btn--neomorph-secundary {
+  color: var(--secundary-color-fonts);
   border-radius: 50px;
-  background: #3191DF;
-  box-shadow:  20px 20px 30px #2a7bbe,
-              -20px -20px 30px #38a7ff;
+  background: #0C63C5;
+  box-shadow:  20px 20px 30px #0a54a7,
+              -20px -20px 30px #0e72e3;
 }

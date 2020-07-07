@@ -1,0 +1,26 @@
+#main-wallet {
+  display: inline-block;
+  background-image: var(--background-color-section);
+  padding: 50px 0;
+}
+
+#main-wallet .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#main-wallet .container .main-wallet__img,
+#main-wallet .container .main-wallet__text {
+  width: 35%;
+  text-align: right;
+  color: var(--secundary-color-fonts);
+}
+
+#main-wallet .container .main-wallet__img {
+  text-align: center;
+}
+
+.main-wallet__img img{
+  height: 500px;
+}
