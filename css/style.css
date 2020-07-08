@@ -45,3 +45,9 @@ h3 {
 p {
   font-size: 20px;
 }
+
+.background--alternaty {
+  display: inline-block;
+  background-image: var(--background-color-section);
+  padding: 50px 0;
+}
