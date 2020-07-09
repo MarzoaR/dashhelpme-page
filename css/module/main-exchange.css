@@ -1,0 +1,37 @@
+#main-exchange .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-exchange .exchange,
+#main-exchange .spend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 48%;
+  padding-bottom: 30px;
+  /* height: 300px; */
+  /* border-radius: 50px; */
+  background: #e5e5e5;
+  box-shadow:  20px 20px 60px #c3c3c3,
+              -20px -20px 60px #ffffff;
+
+}
+
+.exchange {
+  text-align: left;
+  color: var(--primary-color-fonts);
+  border-radius: 0 50px 50px 0;
+}
+
+.spend {
+  text-align: right;
+  color: var(--primary-color-fonts);
+  border-radius: 50px 0 0 50px;
+}
+
+.exchange .content,
+.spend .content {
+  width: 80%;
+}

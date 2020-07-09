@@ -11,8 +11,6 @@ footer .container{
   display: flex;
   justify-content: space-evenly;
   align-items: initial;
-
-
   height: 100%;
 }
 
