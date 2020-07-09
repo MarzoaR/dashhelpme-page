@@ -7,6 +7,8 @@
 @import url('./module/ranking.css');
 @import url('./module/main-wallet.css');
 
+@import url('./module/footer.css');
+
 /* variables */
 :root {
   /* colores */
@@ -16,8 +18,11 @@
   --secundary-color-fonts: var(--primary-color);
   --background-header: linear-gradient(180deg, #0889F1 90%, #0C63C5 100%);
   --background-color-section: linear-gradient(180deg, #0889F1 0%, #0C63C5 100%);
+
+  --background-color-footer: #060423;
   /* tipografias */
   --primary-fonts: 'Montserrat', sans-serif;
+  --primary-size-fonts: 20px;
 }
 
 body {
@@ -42,8 +47,11 @@ h3 {
   font-size: 35px;
 }
 
-p {
+h4 {
   font-size: 20px;
+}
+p {
+  font-size: var(--primary-size-fonts);
 }
 
 .background--alternaty {
