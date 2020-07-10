@@ -14,7 +14,7 @@
 :root {
   /* colores */
   --primary-color: #e5e5e5;
-  --body-color: var(--primary-color);
+  --body-color: #fff;
   --primary-color-fonts: #0889F1;
   --secundary-color-fonts: var(--primary-color);
   --background-header: linear-gradient(180deg, #0889F1 90%, #0C63C5 100%);
