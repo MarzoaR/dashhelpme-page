@@ -1,29 +1,30 @@
 /* Importacion de fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 /* importacion de modulos */
-@import url('./module/buttoms.css');
+/* @import url('./module/buttoms.css');
 @import url('./module/header.css');
 @import url('./module/dash.css');
 @import url('./module/ranking.css');
 @import url('./module/main-blue-section.css');
-@import url('./module/main-exchange.css');
+@import url('./module/main-exchange.css'); */
 
 @import url('./module/footer.css');
 
 /* variables */
 :root {
   /* colores */
-  --primary-color: #e5e5e5;
-  --body-color: #fff;
+  --primary-color: #ffffff;
+  --body-color: var(--primary-color);
   --primary-color-fonts: #0889F1;
   --secundary-color-fonts: var(--primary-color);
   --background-header: linear-gradient(180deg, #0889F1 90%, #0C63C5 100%);
   --background-color-section: linear-gradient(180deg, #0889F1 0%, #0C63C5 100%);
+  --background-color-pricipal: linear-gradient(#12A6FF, #05145E);
 
   --background-color-footer: #060423;
   /* tipografias */
   --primary-fonts: 'Montserrat', sans-serif;
-  --primary-size-fonts: 20px;
+  --primary-size-fonts: 1em;
 }
 
 body {

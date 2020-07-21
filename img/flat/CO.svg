@@ -1,0 +1,23 @@
+<svg id="Grupo_1191" data-name="Grupo 1191" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33.112" height="33.111" viewBox="0 0 33.112 33.111">
+  <defs>
+    <clipPath id="clip-path">
+      <ellipse id="Elipse_61" data-name="Elipse 61" cx="16.556" cy="16.556" rx="16.556" ry="16.556" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_116" data-name="Rectángulo 116" width="56.766" height="33.11" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1190" data-name="Grupo 1190" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <g id="COLOMBIA" transform="translate(-11.827 0.001)">
+      <g id="Grupo_1189" data-name="Grupo 1189">
+        <g id="Grupo_1188" data-name="Grupo 1188">
+          <g id="Grupo_1187" data-name="Grupo 1187" clip-path="url(#clip-path-2)">
+            <rect id="Rectángulo_113" data-name="Rectángulo 113" width="56.766" height="16.555" fill="#f3d02f"/>
+            <rect id="Rectángulo_114" data-name="Rectángulo 114" width="56.766" height="8.277" transform="translate(0 16.555)" fill="#22368f"/>
+            <rect id="Rectángulo_115" data-name="Rectángulo 115" width="56.766" height="8.278" transform="translate(0 24.832)" fill="#bc0030"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
