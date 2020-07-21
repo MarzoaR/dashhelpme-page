@@ -1,0 +1,63 @@
+#videoTutorial .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#videoTutorial .container__content {
+  height: 100%;
+  width: 40%;
+}
+
+#videoTutorial .container__content img {
+  width: 80%;
+}
+
+#videoTutorial .container__content.superLeft {
+  padding-right: 10px;
+}
+
+#videoTutorial p {
+  display: inline-block;
+  max-width: 80%;
+  min-width: 285px;
+  margin: 0;
+}
+
+#videoTutorial a {
+  display: inline-block;
+  width: 180px;
+  padding: 15px 0;
+  background-color: var(--primary-color-fonts);
+  border-radius: 30px;
+  text-decoration: none;
+  color: var(--primary-color);
+  text-align: center;
+  margin-top: 35px ;
+}
+
+@media (max-width: 769px) {
+
+  #videoTutorial .container {
+    flex-direction: column-reverse;
+  }
+  #videoTutorial .container__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 80%;
+  }
+  #videoTutorial .container__content.superLeft {
+    padding-right: 0;
+  }
+  #videoTutorial .container__content .container__content--tuto {
+    text-align: center;
+  }
+
+  #videoTutorial .container__content img {
+    width: 150px;
+  }
+}

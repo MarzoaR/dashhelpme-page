@@ -7,6 +7,7 @@
 @import url('./module/ranking.css');
 @import url('./module/main-blue-section.css');
 @import url('./module/main-exchange.css'); */
+@import url('./module/videoTutorial.css');
 
 @import url('./module/footer.css');
 
@@ -37,12 +38,12 @@ body {
 
 section {
   width: 100%;
-  margin: 100px 0;
+  /* margin: 100px 0; */
 }
 
 h2 {
   font-size: 60px;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 h3 {
@@ -56,12 +57,41 @@ p {
   font-size: var(--primary-size-fonts);
 }
 
-.dash--peso {
-  font-weight: 700;
+.container {
+  padding: 100px 0;
+}
+
+.font-color-secundary {
+  color: var(--primary-color-fonts);
+}
+.weight--high {
+  font-weight: 900;
+}
+.weight--low {
+  font-weight: 400;
+}
+
+.space--letter {
+  letter-spacing: 1px;
 }
 
 .background--alternaty {
   display: inline-block;
   background-image: var(--background-color-section);
   padding: 50px 0;
+}
+.superGrow {
+  flex-direction: column;
+}
+
+.superCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.superLeft {
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
