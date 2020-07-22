@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <!-- <link rel="stylesheet" href="./css/module/footer.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
   <title>Dash Help</title>
 </head>
 <body>
@@ -12,26 +14,90 @@
   </header>
   <!-- Main -->
   <main>
-    <!-- Video Tutoriales -->
-    <section id="videoTutorial">
-      <div class="container">
-        <div class="container__content superLeft">
-          <div class="container__content--tuto font-color-secundary">
-            <h3 class="weight--low space--letter">Videos</br><span class="weight--high">Tutoriales</span></h3>
-            <p>
+    <!-- Obten tu wallet dash -->
+    <!-- <section id="obtenWalletDash">
+      <div class="container container--reverse">
+        <div class="container__content superCenter">
+          <div class="container__content--center font-color-secundary">
+            <h3 class="weight--low space--letter">¡Obtén tu</br><span class="weight--high">Dash Wallet!</span></h3>
+            <p class="container__content--parrafo">
               Obtén información actualizada sobre los mecanismos de minado y nuestra asesoría gratuita para alcanzar tus objetivos.
             </p>
-            <a href="">Tutoriales</a>
+            <a href="" class="btn btn--primary container__content--btn">Leer más</a>
           </div>
         </div>
         <div class="container__content superCenter">
-          <img src="./img/content-home/videoTutoriales.png" alt="video tutoriales">
+          <img src="./img/content-home/walletDash.png" class="container__content--img" alt="video tutoriales">
+        </div>
+      </div>
+    </section> -->
+    <!-- Casa de cambio y Gasta tus Dash (carrousel) -->
+    <section id="cCambio__gDash" class="background--alternaty">
+
+      <div class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+
+              <div class="container">
+                <div class="container__content superCenter">
+                  <img src="./img/content-home/casaCambio.png" class="container__content--img" alt="casa de cambio">
+                </div>
+                <div class="container__content">
+                  <div class="container__content--right container__content--center font-color-primary">
+                    <h3 class="weight--low space--letter">Casas de <span class="weight--high">Cambio</span></h3>
+                    <p class="container__content--parrafo">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc  maxi mus orci et commodo ullamcorper.
+                    </p>
+                    <a href="" class="btn btn--primary container__content--btn">Leer más</a>
+                  </div>
+                </div>
+              </div>
+
+            </li>
+            <li class="splide__slide">
+
+              <div class="container container--reverse">
+                <div class="container__content">
+                  <div class="container__content--center font-color-primary">
+                    <h3 class="weight--low space--letter">Gasta tus <span class="weight--high">Dash</span></h3>
+                    <p class="container__content--parrafo">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc  maxi mus orci et commodo ullamcorper.
+                    </p>
+                    <a href="" class="btn btn--primary container__content--btn">Leer más</a>
+                  </div>
+                </div>
+                <div class="container__content superCenter">
+                  <img src="./img/content-home/dondeGastar.png" class="container__content--img container__content--img--vertical" alt="casa de cambio">
+                </div>
+              </div>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+    <!-- Video Tutoriales -->
+    <section id="videoTutorial">
+      <div class="container container--reverse">
+        <div class="container__content superCenter">
+          <div class="container__content--center font-color-secundary">
+            <h3 class="weight--low space--letter">Videos</br><span class="weight--high">Tutoriales</span></h3>
+            <p class="container__content--parrafo">
+              Obtén información actualizada sobre los mecanismos de minado y nuestra asesoría gratuita para alcanzar tus objetivos.
+            </p>
+            <a href="" class="btn btn--primary container__content--btn">Leer más</a>
+          </div>
+        </div>
+        <div class="container__content superCenter">
+          <img src="./img/content-home/videoTutoriales.png" class="container__content--img" alt="video tutoriales">
         </div>
       </div>
     </section>
   </main>
   <!-- Footer -->
-  <footer>
+  <footer class="background--alternaty">
     <section class="container">
       <div class="container__content">
         <h4>
@@ -137,6 +203,7 @@
       <!-- <div class="container__content">perol</div> -->
     </section>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
   <script src="./js/app.js"></script>
 </body>
 </html>

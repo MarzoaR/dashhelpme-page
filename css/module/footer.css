@@ -1,11 +1,9 @@
 footer {
   width: 100%;
-  background: var(--background-color-pricipal);
-  /* padding: 50px 0; */
 }
 
 footer .container{
-  margin: 0;
+  /* margin: 0; */
   display: flex;
   justify-content: space-evenly;
   align-items: initial;
@@ -14,7 +12,7 @@ footer .container{
 
 footer .container__content {
   width: 20%;
-  color: var(--secundary-color-fonts);
+  color: var(--primary-color-fonts);
   min-width: 285px;
   padding: 0 20px;
 }
@@ -29,7 +27,7 @@ footer .container__content p {
 
 footer .container__content a {
   text-decoration: none;
-  color: var(--secundary-color-fonts);
+  color: var(--primary-color-fonts);
 }
 
 footer .container__content .content__social_media,
@@ -81,6 +79,7 @@ footer .container__content .content__phone li img {
   }
 
   footer .container__content {
+    display: block;
     padding: 25px 0;
     border-bottom: 2px solid var(--primary-color);
   }

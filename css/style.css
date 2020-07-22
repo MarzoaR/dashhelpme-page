@@ -7,7 +7,7 @@
 @import url('./module/ranking.css');
 @import url('./module/main-blue-section.css');
 @import url('./module/main-exchange.css'); */
-@import url('./module/videoTutorial.css');
+@import url('./module/cCambio__gDash.css');
 
 @import url('./module/footer.css');
 
@@ -16,8 +16,8 @@
   /* colores */
   --primary-color: #ffffff;
   --body-color: var(--primary-color);
-  --primary-color-fonts: #0889F1;
-  --secundary-color-fonts: var(--primary-color);
+  --primary-color-fonts: var(--primary-color);
+  --secundary-color-fonts: #0889F1;
   --background-header: linear-gradient(180deg, #0889F1 90%, #0C63C5 100%);
   --background-color-section: linear-gradient(180deg, #0889F1 0%, #0C63C5 100%);
   --background-color-pricipal: linear-gradient(#12A6FF, #05145E);
@@ -57,12 +57,49 @@ p {
   font-size: var(--primary-size-fonts);
 }
 
-.container {
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   padding: 100px 0;
 }
+.container__content {
+  width: 40%;
+}
 
-.font-color-secundary {
+.container__content--img {
+  width: 80%;
+}
+
+.container__content--btn {
+  margin-top: 35px;
+}
+
+.container__content--parrafo {
+  display: inline-block;
+  max-width: 80%;
+  min-width: 285px;
+  margin: 0;
+}
+
+/* .container__content--center {
+  text-align: center;
+} */
+
+.container__content--right {
+  text-align: right;
+}
+
+.background--alternaty{
+  background: var(--background-color-pricipal);
+}
+
+.font-color-primary {
   color: var(--primary-color-fonts);
+}
+.font-color-secundary {
+  color: var(--secundary-color-fonts);
 }
 .weight--high {
   font-weight: 900;
@@ -75,14 +112,11 @@ p {
   letter-spacing: 1px;
 }
 
-.background--alternaty {
+/* .background--alternaty {
   display: inline-block;
   background-image: var(--background-color-section);
   padding: 50px 0;
-}
-.superGrow {
-  flex-direction: column;
-}
+} */
 
 .superCenter {
   display: flex;
@@ -94,4 +128,54 @@ p {
   display: flex;
   justify-content: left;
   align-items: center;
+}
+
+.superRight {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+/********** Botones **********/
+
+.btn {
+  display: inline-block;
+  width: 180px;
+  padding: 15px 0;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn--primary {
+  background-color: var(--secundary-color-fonts);
+  color: var(--primary-color);
+}
+
+
+
+/******************** Responsive ********************/
+
+
+@media (max-width: 769px) {
+
+  .container {
+    flex-direction: column;
+  }
+  .container--reverse {
+    flex-direction: column-reverse;
+  }
+  .container__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+  }
+  .container__content .container__content--center {
+    text-align: center;
+  }
+
+  .container__content--img {
+    width: 150px;
+  }
 }
