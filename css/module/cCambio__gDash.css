@@ -11,10 +11,36 @@
   max-height: 370px;
   width: auto;
 }
+#ranking .background--alternaty{
+  background: var(--background-color-ranking);
+}
+#ranking .container--ranking{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-radius: 50px;
+}
+
+#ranking .container--ranking .container__content {
+  text-align: center;
+}
+
+#ranking span {
+  display: inline-block;
+  font-size: 40px;
+  padding-bottom: 35px;
+}
 
 @media (max-width: 769px) {
 
   #cCambio__gDash .container__content--img, #obtenWalletDash .container__content--img {
     height: 150px;
   }
+
+  #ranking .container--ranking, #ranking .container__content {
+    flex-direction: column;
+  }
+
 }
+

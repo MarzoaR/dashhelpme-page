@@ -21,8 +21,9 @@
   --background-header: linear-gradient(180deg, #0889F1 90%, #0C63C5 100%);
   --background-color-section: linear-gradient(180deg, #0889F1 0%, #0C63C5 100%);
   --background-color-pricipal: linear-gradient(#12A6FF, #05145E);
+  --background-color-ranking: linear-gradient(#0F84D9, #061F6A);
 
-  --background-color-footer: #060423;
+  /* --background-color-footer: #060423; */
   /* tipografias */
   --primary-fonts: 'Montserrat', sans-serif;
   --primary-size-fonts: 1em;
@@ -42,7 +43,7 @@ section {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 40px;
   /* font-weight: 400; */
 }
 
