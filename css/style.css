@@ -8,7 +8,7 @@
 @import url('./module/main-blue-section.css');
 @import url('./module/main-exchange.css'); */
 @import url('./module/cCambio__gDash.css');
-
+@import url('./module/header.css');
 @import url('./module/footer.css');
 
 /* variables */
@@ -40,6 +40,10 @@ body {
 section {
   width: 100%;
   /* margin: 100px 0; */
+}
+
+h1 {
+  font-size: 50px;
 }
 
 h2 {
