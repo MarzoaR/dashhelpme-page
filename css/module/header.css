@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  height: calc(100vh - 25px);
+  min-height: calc(100vh - 25px);
   background-image: var(--background-color-pricipal);
   border-radius: 0 0 0px 200px;
 }
@@ -23,7 +23,11 @@ nav {
 
 @media (max-width: 769px) {
   header {
-    height: 100vh
+    min-height: 100vh;
+  }
+  header .container {
+    padding-bottom: 35px;
+    position: relative;
   }
   header .container__content--img {
     /* display: none; */
@@ -33,3 +37,15 @@ nav {
     font-size: 35px;
   }
 }
+
+/* @media (max-height: 769px) {
+  header .container {
+    padding-bottom: 35px;
+    position: relative;
+  }
+  header .none {
+    display: none;
+  }
+} */
+/* @media (max-width: 400px) {
+} */
