@@ -1,0 +1,115 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  height: 200vh;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#12A6FF, #05145E);
+} */
+
+.menu {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  color: #fff;
+  padding: 0 10px;
+  transition: 1s;
+  z-index: 100000000;
+}
+.sticky {
+  background-color: #fff;
+  color: rgb(43, 42, 42);
+  height: 80px;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.16);
+}
+
+#menu_toggle {
+  display: none;
+}
+
+#menu_logo, #menu_currentcy {
+  width: 20%;
+}
+
+#menu_logo, #menu_currentcy, #menu_list {
+  display: inline-block;
+}
+
+.menu_logo {
+  position: relative;
+  top: 8%;
+}
+.menu_list {
+  position: relative;
+  top: -24px;
+  width: 59%;
+}
+.menu_list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.menu_list ul li {
+  cursor: pointer;
+  width: 15%;
+}
+
+.menu_list ul li > ul {
+  display: none;
+  flex-direction: column;
+}
+
+.menu_list ul li > ul li {
+  width: 100%;
+}
+
+.menu_list ul li:hover > ul {
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.menu_list a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.dropdown {
+  background-color: #fff;
+  border: 1px solid rgba(43, 42, 42, 0.16) !important;
+}
+
+.dropdown a {
+  color: rgb(43, 42, 42);
+}
+
+#menu_currentcy {
+  text-align: left;
+  position: relative;
+  top: -15px;
+}
+#menu_currentcy span {
+  display: block;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+#menu_currentcy span:first-child {
+  padding-bottom: 5px;
+}
