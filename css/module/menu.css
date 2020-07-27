@@ -48,6 +48,9 @@ header {
   position: relative;
   top: 8%;
 }
+.menu_logo img {
+  transition: 1s;
+}
 .menu_list {
   position: relative;
   top: -24px;
