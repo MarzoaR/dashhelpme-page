@@ -1,0 +1,23 @@
+.page--p {
+  width: 80%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.container--video {
+  display: flex;
+justify-content: center;
+  width: 80%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 33%;
+  padding-top: 30px;
+  position: relative;
+}
+.container--video iframe{
+  height: 100%;
+  /* left: 0; */
+  position: absolute;
+  top: 0;
+  width: 80%;
+}
