@@ -5,7 +5,11 @@ window.addEventListener('scroll', () => {
   const img = document.querySelector('.menu_logo img');
   const dDown = document.querySelectorAll('.menu_list__dropdown');
 
-  nav.classList.toggle('sticky', window.scrollY > 100)
+  if(screen.width <= 1600) {
+    nav.classList.toggle('sticky', window.scrollY > 100)
+  } else {
+    nav.classList.toggle('sticky--1600', window.scrollY > 100)
+  }
 
   dDown.forEach(element => {
     element.classList.toggle('dropdown', window.scrollY > 100);
