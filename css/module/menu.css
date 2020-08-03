@@ -10,7 +10,7 @@ nav {
   width: 100%;
   z-index: 1000;
   color: #fff;
-  transition: 1s;
+  transition: .5s;
   font-family: var(--primary-fonts);
 }
 
@@ -28,7 +28,7 @@ nav {
   height: 100px;
   margin: 0 auto;
   display: flex;
-  transition: 1s;
+  transition: .5s;
 }
 
 .sticky {
@@ -39,7 +39,7 @@ nav {
   flex: 1;
   display: flex;
   align-items: center;
-  transition: 1;
+  /* transition: 1s; */
 }
 
 .logo-container a {
@@ -47,7 +47,7 @@ nav {
   align-items: center;
   justify-content: center;
   width: 100%;
-  transition: 1s;
+  /* transition: 1s; */
 }
 
 .logo-container a img {
@@ -89,12 +89,12 @@ nav {
   margin: 0 10px;
   letter-spacing: 1px;
   cursor: pointer;
-  transition: .5s;
+  /* transition: .3s; */
 }
 
 .nav-link > i {
   margin-left: 5px;
-  transition: .7s;
+  /* transition: .5s; */
 }
 
 .nav-link:hover i {
