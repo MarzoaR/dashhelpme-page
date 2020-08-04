@@ -9,7 +9,7 @@
 @import url('./module/main-exchange.css'); */
 @import url('./module/cCambio__gDash.css');
 @import url('./module/header.css');
-@import url('./module/footer.css');
+/* @import url('./module/footer.css'); */
 
 /* variables */
 :root {
@@ -39,7 +39,6 @@ body {
 
 section {
   width: 100%;
-  /* margin: 100px 0; */
 }
 
 h1 {
@@ -48,7 +47,6 @@ h1 {
 
 h2 {
   font-size: 40px;
-  /* font-weight: 400; */
 }
 
 h3 {
