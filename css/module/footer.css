@@ -4,9 +4,6 @@
   --background-color-footer: linear-gradient(#12A6FF, #05145E);
 }
 
-
-
-
 footer {
   width: 100%;
   font-family: 'Montserrat', sans-serif;
@@ -17,7 +14,7 @@ footer .container{
   justify-content: space-evenly;
   align-items: initial;
   flex-wrap: wrap;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 footer .container__content {
@@ -37,7 +34,7 @@ footer .container__content p {
 
 footer .container__content a {
   text-decoration: none;
-  color: var(--primary-color-fonts);
+  color: var(--footer-color-fonts);
 }
 
 footer .container__content .content__social_media,

@@ -11,7 +11,7 @@ nav {
   z-index: 1000;
   color: #fff;
   transition: 1s;
-  font-family: var(--primary-fonts);
+  font-family: 'Montserrat', sans-serif;;
 }
 
 .nav-sticky {
