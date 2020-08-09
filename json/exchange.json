@@ -1,0 +1,301 @@
+[
+  {
+    "nombre": "coinbase",
+    "url":"https://www.coinbase.com/",
+    "logo":"../img/logo-exchange/coinbase.svg",
+    "pairs": "BTC ETH USD EUR",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+        "name": "chainlocks",
+        "logo": "../img/logo-exchange/cl-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "coinbase pro",
+    "url":"https://pro.coinbase.com/",
+    "logo":"../img/logo-exchange/coinbase-pro.svg",
+    "pairs": "BTC USD",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+        "name": "chainlocks",
+        "logo": "../img/logo-exchange/cl-logo-blue-text.svg"
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "hitbtc",
+    "url":"https://hitbtc.com/",
+    "logo":"../img/logo-exchange/hitbtc-2.svg",
+    "pairs": "USD BTC ETH EOS BCH",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+        "name": "chainlocks",
+        "logo": "../img/logo-exchange/cl-logo-blue-text.svg"
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "indodax",
+    "url":"https://indodax.com/",
+    "logo":"../img/logo-exchange/indodax-1.png",
+    "pairs": "IDR BTC",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "bibox",
+    "url":"https://bibox.com/",
+    "logo":"../img/logo-exchange/bibox.svg",
+    "pairs": "USDT BTC ETH",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "whitebit",
+    "url":"https://whitebit.com/",
+    "logo":"../img/logo-exchange/whitebit.svg",
+    "pairs": "USD BTC ETH",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+        "name": "chainlocks",
+        "logo": "../img/logo-exchange/cl-logo-blue-text.svg"
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "kucoin",
+    "url":"https://www.kucoin.com/",
+    "logo":"../img/logo-exchange/kucoin-1.svg",
+    "pairs": "USDT BTC ETH",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+        "name": "chainlocks",
+        "logo": "../img/logo-exchange/cl-logo-blue-text.svg"
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "binance",
+    "url":"https://www.binance.com/",
+    "logo":"../img/logo-exchange/binance.svg",
+    "pairs": "USD BTC ETH",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "bithumb",
+    "url":"https://www.bithumb.com/",
+    "logo":"../img/logo-exchange/bithumb-1.svg",
+    "pairs": "KRW",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "bitfinex",
+    "url":"https://www.bitfinex.com/",
+    "logo":"../img/logo-exchange/bitfinex.svg",
+    "pairs": "USD BTC",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "bittrex",
+    "url":"https://www.bittrex.com/",
+    "logo":"../img/logo-exchange/bittrex.svg",
+    "pairs": "USD BTC ETH",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "kraken",
+    "url":"https://www.kraken.com/",
+    "logo":"../img/logo-exchange/kraken-1.svg",
+    "pairs": "USD BTC EUR",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "poloniex",
+    "url":"https://www.poloniex.com/",
+    "logo":"../img/logo-exchange/poloniex-1.svg",
+    "pairs": "USD BTC",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "uphold",
+    "url":"https://uphold.com/",
+    "logo":"../img/logo-exchange/uphold-1.svg",
+    "pairs": "USD EUR CNY CAD GBP AUD BTC ETH CHF MXN",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "bitbns",
+    "url":"https://bitbns.com/",
+    "logo":"../img/logo-exchange/bitbns.svg",
+    "pairs": "INR USDT",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "coincola",
+    "url":"https://coincola.com/",
+    "logo":"../img/logo-exchange/coincola.svg",
+    "pairs": "CNY",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "digifinex",
+    "url":"https://www.digifinex.com/",
+    "logo":"../img/logo-exchange/digifinex-1.svg",
+    "pairs": "USD BTC ETH",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  }
+
+]

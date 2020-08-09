@@ -3,6 +3,7 @@
 
   --primary-color: #ffffff;
   --primary-color-fonts: var(--primary-color);
+  --secundary-color-fonts: #0889F1;
 }
 
 body {
@@ -47,6 +48,17 @@ h4 {
   font-size: 20px;
 }
 
+.p-botton-0{
+  padding-bottom: 0 !important;
+}
+
+.container--pages{
+  width: 80%;
+  padding: 100px 0;
+  margin: auto;
+  text-align: center;
+}
+
 .page--p {
   width: 80%;
   text-align: center;
@@ -58,6 +70,9 @@ h4 {
 
 .font-color-primary {
   color: var(--primary-color-fonts);
+}
+.font-color-secundary {
+  color: var(--secundary-color-fonts);
 }
 
 /* ----------------------------------------------- Video ----------------------------------------------- */
