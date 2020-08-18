@@ -2,22 +2,27 @@
   --color-font-principal-table: #008de4;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .table__container {
   width: 80%;
   margin: auto;
   padding: 50px 0;
 }
 
-table#tableExchange {
+table {
   width: 100%;
   border-collapse: collapse;
+  margin-bottom: 100px;
 }
 
 tr {
   border-top: 2px solid #eee;
 }
 
-table#tableExchange tbody tr:last-child {
+table tbody tr:last-child {
   border-bottom: 2px solid #eee;
 }
 th {
@@ -31,6 +36,9 @@ td {
 
 td .img-logo {
   max-width: 50px;
+}
+td .img-logo__br {
+  max-width: 125px;
 }
 td h4 {
   margin: 0;
@@ -64,18 +72,44 @@ td a.buy:hover {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+#menu_exchange {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#menu_exchange a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  width: 150px;
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #008de4;
+  border-radius: 10px;
+}
+#menu_exchange a span{
+  padding-left: 10px;
+}
+#menu_exchange a span.eeuu{
+  width: min-content;
+}
 @media (max-width: 920px) {
 
-  table#tableExchange thead {
+  table thead {
     display: none;
   }
-  table#tableExchange tbody td {
+  table tbody td {
     display: block;
     position: relative;
     padding: 20px 0;
     margin-top: 50px
   }
-  table#tableExchange tbody td::before {
+  table tbody td::before {
     content: attr(data-label);
     position: absolute;
     top: -25px;
@@ -85,4 +119,14 @@ td a.buy:hover {
     font-weight: 800;
   }
 
+}
+
+@media (max-width: 475px) {
+  #menu_exchange a {
+    width: initial;
+  }
+
+   #menu_exchange a span{
+    display: none;
+  }
 }
