@@ -1,0 +1,47 @@
+[
+  {
+    "nombre": "cryptoway",
+    "url":"https://cryptoway.io/#/",
+    "logo":"../img/logo-exchange/cryptoway1.png",
+    "pairs": "VES",
+    "features": [
+      {
+      },
+      {
+        "name": "chainlocks",
+        "logo": "../img/logo-exchange/cl-logo-blue-text.svg"
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "cryptobuyer",
+    "url":"https://cryptobuyer.io/es/",
+    "logo":"../img/logo-exchange/cryptobuyer.svg",
+    "pairs": "VES",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "basichange",
+    "url":"https://basichange.com/",
+    "logo":"../img/logo-exchange/basichange.png",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  }
+
+]

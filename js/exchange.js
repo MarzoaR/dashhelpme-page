@@ -64,11 +64,10 @@ function getExchange(id, file) {
     let img = document.getElementsByTagName("img");
     for (let item of img) {
       if(item.getAttribute("alt") == "braziliex" || item.getAttribute("alt") == "ripio"){
-        console.log("encontrado");
         item.classList.remove("img-logo");
         item.classList.add("img-logo__br")
       }
-  }
+    }
   })
 }
 
@@ -76,3 +75,4 @@ function getExchange(id, file) {
   getExchange("#bodyEeuu", "eeuuExchange.json");
   getExchange("#bodyArgentina", "argentinaExchange.json");
   getExchange("#bodyBrasil", "brasilExchange.json");
+  getExchange("#bodyVenezuela", "venezuelaExchange.json");
