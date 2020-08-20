@@ -1,0 +1,156 @@
+[
+  {
+    "nombre": "coinbase",
+    "url":"https://www.coinbase.com/",
+    "logo":"../img/logo-exchange/coinbase.svg",
+    "pairs": "BTC ETH USD EUR",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+        "name": "chainlocks",
+        "logo": "../img/logo-exchange/cl-logo-blue-text.svg"
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "stratum",
+    "url":"https://stratum.hk/",
+    "logo":"../img/logo-exchange/stratum.png",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "globalmoney",
+    "url":"https://www.glomo.trade/",
+    "logo":"../img/logo-exchange/globalmoney.png",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "braziliex",
+    "url":"https://braziliex.com/",
+    "logo":"../img/logo-exchange/braziliex.png",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "bitinka",
+    "url":"https://www.bitinka.com/pt/bitinka/home",
+    "logo":"../img/logo-exchange/bitinka.png",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "uphold",
+    "url":"https://uphold.com/",
+    "logo":"../img/logo-exchange/uphold-1.svg",
+    "pairs": "USD EUR CNY CAD GBP AUD BTC ETH CHF MXN",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "digifinex",
+    "url":"https://www.digifinex.com/",
+    "logo":"../img/logo-exchange/digifinex-1.svg",
+    "pairs": "USD BTC ETH",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "kamoney",
+    "url":"https://www.kamoney.com.br/",
+    "logo":"../img/logo-exchange/kamoney.svg",
+    "pairs": "BRL",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "cointradecx",
+    "url":"https://cointradecx.com/",
+    "logo":"../img/logo-exchange/cointrade.png",
+    "pairs": "BRL BTC ETH LTC DOGE",
+    "features": [
+      {
+      },
+      {
+        "name": "chainlocks",
+        "logo": "../img/logo-exchange/cl-logo-blue-text.svg"
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "huobi global",
+    "url":"https://www.huobi.com/es-es/",
+    "logo":"../img/logo-exchange/huobi.svg",
+    "pairs": "USD EUR BRL USDT HUSD BTC HT",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  }
+
+]

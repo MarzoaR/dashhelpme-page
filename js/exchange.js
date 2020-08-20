@@ -60,8 +60,19 @@ function getExchange(id, file) {
   }
     bodyExchange.innerHTML = stringTotal;
   })
+  .then(() => {
+    let img = document.getElementsByTagName("img");
+    for (let item of img) {
+      if(item.getAttribute("alt") == "braziliex" || item.getAttribute("alt") == "ripio"){
+        console.log("encontrado");
+        item.classList.remove("img-logo");
+        item.classList.add("img-logo__br")
+      }
+  }
+  })
 }
 
   getExchange("#bodyExchange", "exchange.json");
   getExchange("#bodyEeuu", "eeuuExchange.json");
   getExchange("#bodyArgentina", "argentinaExchange.json");
+  getExchange("#bodyBrasil", "brasilExchange.json");
