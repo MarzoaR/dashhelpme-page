@@ -1,0 +1,103 @@
+[
+  {
+    "nombre": "bitex",
+    "url":"https://bitex.la/",
+    "logo":"../img/logo-exchange/bitex.png",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "buda",
+    "url":"https://www.buda.com/",
+    "logo":"../img/logo-exchange/buda.svg",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "cryptomkt",
+    "url":"https://www.cryptomkt.com/es/",
+    "logo":"../img/logo-exchange/cryptomkt.png",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "localbitcoins",
+    "url":"https://localbitcoins.com/es/",
+    "logo":"../img/logo-exchange/localbitcoins.svg",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "ripio",
+    "url":"https://www.ripio.com/ar/",
+    "logo":"../img/logo-exchange/ripio.svg",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "uphold",
+    "url":"https://uphold.com/",
+    "logo":"../img/logo-exchange/uphold-1.svg",
+    "pairs": "USD EUR CNY CAD GBP AUD BTC ETH CHF MXN",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "etoro",
+    "url":"https://www.etoro.com/es/",
+    "logo":"../img/logo-exchange/etoro.svg",
+    "pairs": "USD EUR",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  }
+
+]

@@ -64,3 +64,4 @@ function getExchange(id, file) {
 
   getExchange("#bodyExchange", "exchange.json");
   getExchange("#bodyEeuu", "eeuuExchange.json");
+  getExchange("#bodyArgentina", "argentinaExchange.json");
