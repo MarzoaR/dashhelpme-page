@@ -1,0 +1,233 @@
+[
+  {
+    "nombre": "coinbase",
+    "url":"https://www.coinbase.com/",
+    "logo":"../img/logo-exchange/coinbase.svg",
+    "pairs": "BTC ETH USD EUR",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+        "name": "chainlocks",
+        "logo": "../img/logo-exchange/cl-logo-blue-text.svg"
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "binance",
+    "url":"https://www.binance.com/",
+    "logo":"../img/logo-exchange/binance.svg",
+    "pairs": "USD BTC ETH",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "bitfinex",
+    "url":"https://www.bitfinex.com/",
+    "logo":"../img/logo-exchange/bitfinex.svg",
+    "pairs": "USD BTC",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "bit2me",
+    "url":"https://bit2me.com/",
+    "logo":"../img/logo-exchange/bit2me.svg",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "bitnovo",
+    "url":"https://www.bitnovo.com/",
+    "logo":"../img/logo-exchange/bitnovo.svg",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "kraken",
+    "url":"https://www.kraken.com/",
+    "logo":"../img/logo-exchange/kraken-1.svg",
+    "pairs": "USD BTC EUR",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "uphold",
+    "url":"https://uphold.com/",
+    "logo":"../img/logo-exchange/uphold-1.svg",
+    "pairs": "USD EUR CNY CAD GBP AUD BTC ETH CHF MXN",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "paycent",
+    "url":"https://paycent.com/",
+    "logo":"../img/logo-exchange/paycent.png",
+    "pairs": "EUR",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "digifinex",
+    "url":"https://www.digifinex.com/",
+    "logo":"../img/logo-exchange/digifinex-1.svg",
+    "pairs": "USD BTC ETH",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "changelly",
+    "url":"https://changelly.com/",
+    "logo":"../img/logo-exchange/changelly.svg",
+    "pairs": "USD BRL ARS CLP COP CRC DOP MXN PEN UYU EUR",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "cexio",
+    "url":"https://cex.io/",
+    "logo":"../img/logo-exchange/cexio.svg",
+    "pairs": "USD EUR BTC USDT",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "huobi global",
+    "url":"https://www.huobi.com/es-es/",
+    "logo":"../img/logo-exchange/huobi.svg",
+    "pairs": "USD EUR BRL USDT HUSD BTC HT",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "bitbay",
+    "url":"https://bitbay.net/en",
+    "logo":"../img/logo-exchange/bitbay.svg",
+    "pairs": "USD EUR BTC PLN",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "alfacashier",
+    "url":"https://www.alfa.cash/es",
+    "logo":"../img/logo-exchange/alfacashier.svg",
+    "pairs": "USD EUR",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "etoro",
+    "url":"https://www.etoro.com/es/",
+    "logo":"../img/logo-exchange/etoro.svg",
+    "pairs": "USD EUR",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  }
+
+]
