@@ -1,0 +1,150 @@
+[
+  {
+    "nombre": "bitinka",
+    "url":"https://www.bitinka.com/pt/bitinka/home",
+    "logo":"../img/logo-exchange/bitinka.png",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "buda",
+    "url":"https://www.buda.com/",
+    "logo":"../img/logo-exchange/buda.svg",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "coinbase",
+    "url":"https://www.coinbase.com/",
+    "logo":"../img/logo-exchange/coinbase.svg",
+    "pairs": "BTC ETH USD EUR",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+        "name": "chainlocks",
+        "logo": "../img/logo-exchange/cl-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "localbitcoins",
+    "url":"https://localbitcoins.com/es/",
+    "logo":"../img/logo-exchange/localbitcoins.svg",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "Coin2001",
+    "url":"https://coin2001.com/es",
+    "logo":"../img/logo-exchange/coin2001.png",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "bitcoco",
+    "url":"https://www.bitcoco.com.co/",
+    "logo":"../img/logo-exchange/bitcoco.png",
+    "pairs": "",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "digifinex",
+    "url":"https://www.digifinex.com/",
+    "logo":"../img/logo-exchange/digifinex-1.svg",
+    "pairs": "USD BTC ETH",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "changelly",
+    "url":"https://changelly.com/",
+    "logo":"../img/logo-exchange/changelly.svg",
+    "pairs": "USD BRL ARS CLP COP CRC DOP MXN PEN UYU EUR",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "etoro",
+    "url":"https://www.etoro.com/es/",
+    "logo":"../img/logo-exchange/etoro.svg",
+    "pairs": "USD EUR",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "panda exchange",
+    "url":"https://panda.exchange/es-IC/",
+    "logo":"../img/logo-exchange/panda.png",
+    "pairs": "COP BTC BCH ETH DAI TUSD",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  }
+
+]
