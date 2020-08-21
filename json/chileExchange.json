@@ -1,0 +1,78 @@
+[
+  {
+    "nombre": "coinbase",
+    "url":"https://www.coinbase.com/",
+    "logo":"../img/logo-exchange/coinbase.svg",
+    "pairs": "BTC ETH USD EUR",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+        "name": "chainlocks",
+        "logo": "../img/logo-exchange/cl-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "orionx",
+    "url":"https://orionx.com/",
+    "logo":"../img/logo-exchange/orionx.svg",
+    "pairs": "CLP BTC",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "digifinex",
+    "url":"https://www.digifinex.com/",
+    "logo":"../img/logo-exchange/digifinex-1.svg",
+    "pairs": "USD BTC ETH",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+        "name": "instasend",
+        "logo": "../img/logo-exchange/is-logo-blue-text.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "changelly",
+    "url":"https://changelly.com/",
+    "logo":"../img/logo-exchange/changelly.svg",
+    "pairs": "USD BRL ARS CLP COP CRC DOP MXN PEN UYU EUR",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  },
+  {
+    "nombre": "ibitt",
+    "url":"https://www.ibitt.co/",
+    "logo":"../img/logo-exchange/ibitt.png",
+    "pairs": "CLP",
+    "features": [
+      {
+      },
+      {
+      },
+      {
+      }
+    ]
+  }
+
+]
