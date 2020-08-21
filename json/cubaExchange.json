@@ -1,0 +1,19 @@
+[
+  {
+    "nombre": "bitfinex",
+    "url":"https://www.bitfinex.com/",
+    "logo":"../img/logo-exchange/bitfinex.svg",
+    "pairs": "USD BTC",
+    "features": [
+      {
+        "name": "bti",
+        "url": "https://bti.live",
+        "logo":"../img/logo-exchange/bti.svg"
+      },
+      {
+      },
+      {
+      }
+    ]
+  }
+]
