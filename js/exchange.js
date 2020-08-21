@@ -83,4 +83,5 @@ function getExchange(id, file) {
   getExchange("#bodyCostaRica", "variosExchange.json");
   getExchange("#bodyPeru", "variosExchange.json");
   getExchange("#bodyRepublicaDominicana", "variosExchange.json");
+  getExchange("#bodyUruguay", "variosExchange.json");
   getExchange("#bodyCuba", "cubaExchange.json");
