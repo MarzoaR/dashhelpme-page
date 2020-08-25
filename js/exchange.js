@@ -6,7 +6,7 @@ function getExchange(id, file) {
 
   let bodyExchange = document.querySelector(`${id}`);
   let API_EXCHANGE = `../json/${file}`;
-  console.log(API_EXCHANGE)
+  // console.log(API_EXCHANGE)
   fetch(API_EXCHANGE)
   .then(response => response.json())
   .then(jsonExchange => {
