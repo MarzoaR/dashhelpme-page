@@ -36,14 +36,16 @@
   line-height: 20px;
 }
 
-.wallet__card--donwload a {
+.wallet__card--donwload a,
+.wallet__card--tabs section a {
   text-decoration: none;
   font-size: 20px;
   display: inline-block;
   padding-bottom: 10px;
 }
 
-.wallet__card--donwload a i span{
+.wallet__card--donwload a i span,
+.wallet__card--tabs section a i span{
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   padding-left: 10px;
@@ -57,7 +59,55 @@
 
 
 
+/* ----------------------------------------------- tabs ----------------------------------------------- */
 
+.wallet__card--tabs > input,
+.wallet__card--tabs section > div {
+  display: none;
+}
+
+#tab1:checked ~ section .tab1,
+#tab2:checked ~ section .tab2,
+#tab3:checked ~ section .tab3,
+#tab4:checked ~ section .tab4 {
+  display: flex;
+}
+#tab1:checked ~ ul .tab1 label,
+#tab2:checked ~ ul .tab2 label,
+#tab3:checked ~ ul .tab3 label,
+#tab4:checked ~ ul .tab4 label {
+  border-bottom: 3px solid #008de4;
+  padding-bottom: 3px;
+}
+
+.wallet__card--tabs ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.wallet__card--tabs ul li{
+  padding: 15px 10px;
+}
+.wallet__card--tabs ul li:first-child{
+  padding-left: 0;
+}
+.wallet__card--tabs ul li label{
+  cursor: pointer;
+}
+
+.wallet__card--tabs label i{
+  font-size: 22px;
+}
+.wallet__card--tabs label i span{
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 5px;
+  font-size: 13px;
+}
+
+.wallet__card--tabs section{
+  padding: 10px 0;
+}
 /* ----------------------------------------------- Responsive ----------------------------------------------- */
 
 @media (max-width: 949px) {
