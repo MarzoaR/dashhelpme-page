@@ -1,6 +1,10 @@
 header {
+  position: relative;
   width: 100%;
-  min-height: calc(100vh - 25px);
+  max-width: 1920px;
+  /* height: 100%; */
+  height: calc(100vh - 25px);
+  /* max-height: 735px !important; */
   background-image: var(--background-color-pricipal);
   border-radius: 0 0 0px 200px;
 }
@@ -8,6 +12,8 @@ header {
 header .container {
   position: absolute;
   bottom: 25px;
+  max-width: 1920px;
+  /* max-height: 735px !important; */
 }
 
 header .container--header {
@@ -71,5 +77,8 @@ header .container__content--img {
     display: none;
   }
 } */
-/* @media (max-width: 400px) {
-} */
+@media (min-height: 864px) {
+  header {
+    max-height: 950px;
+  }
+}

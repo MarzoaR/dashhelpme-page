@@ -4,6 +4,13 @@
   --background-color-footer: linear-gradient(#12A6FF, #05145E);
 }
 
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  border-right: 1px solid #12a4ff36;
+  border-left: 1px solid #12a4ff36;
+}
+
 footer {
   width: 100%;
   font-family: 'Montserrat', sans-serif;
