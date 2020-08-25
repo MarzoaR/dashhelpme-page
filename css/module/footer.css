@@ -7,8 +7,8 @@
 body {
   max-width: 1920px;
   margin: 0 auto;
-  border-right: 1px solid #12a4ff36;
-  border-left: 1px solid #12a4ff36;
+  /* border-right: 1px solid #12a4ff36; */
+  /* border-left: 1px solid #12a4ff36; */
 }
 
 footer {
@@ -82,6 +82,12 @@ footer .container__content .content__phone li a{
 footer .container__content .content__phone li img {
   /* height: 25px; */
   padding-right: 10px;
+}
+
+footer .container__content .content__phone li i {
+  /* height: 25px; */
+  padding-right: 10px;
+  font-size: 35px;
 }
 
 footer h4 {

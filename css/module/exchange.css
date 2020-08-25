@@ -102,6 +102,9 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 .menu_exchange a span.eeuu{
   width: min-content;
 }
+.menu_exchange img {
+  height: 33px;
+}
 
 #top {
   display: flex;
