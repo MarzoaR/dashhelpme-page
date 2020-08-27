@@ -1,0 +1,161 @@
+:root {
+  --color-font-principal-table: #008de4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.table__container {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 100px;
+}
+
+tr {
+  border-top: 2px solid #eee;
+}
+
+table tbody tr:last-child {
+  border-bottom: 2px solid #eee;
+}
+th {
+  padding: 20px 0;
+}
+td {
+  padding: 20px 0;
+  text-align: center;
+  width: calc(100% / 3);
+}
+
+td .img-logo {
+  /* max-width: 50px; */
+  height: 50px;
+}
+td .img-logo__br {
+  /* max-width: 125px; */
+  height: 50px;
+}
+td h4 {
+  margin: 0;
+}
+
+td a {
+  color: var(--color-font-principal-table);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+td a i {
+  font-size: 1.5rem;
+}
+
+td a.buy {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  margin: auto;
+  padding: 10px;
+  transition: .3s;
+}
+td a.buy span {
+  margin-left: 5px;
+}
+td a.buy:hover {
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+/* 
+.menu_exchange {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu_exchange a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  width: 150px;
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #008de4;
+  border-radius: 10px;
+  transition: .3s;
+}
+.menu_exchange a:hover {
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.menu_exchange a span{
+  padding-left: 10px;
+}
+.menu_exchange a span.eeuu{
+  width: min-content;
+}
+.menu_exchange img {
+  height: 33px;
+} */
+
+#top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #E38400;
+  border-radius: 50%;
+  text-decoration: none;
+}
+#top i {
+  color: #fff;
+  font-size: 2rem;
+}
+
+@media (max-width: 920px) {
+
+  table thead {
+    display: none;
+  }
+  table tbody td {
+    display: block;
+    position: relative;
+    padding: 20px 0;
+    margin-top: 50px;
+    width: 100%;
+  }
+  table tbody td::before {
+    content: attr(data-label);
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 100%;
+    /* text-transform: uppercase; */
+    font-weight: 800;
+  }
+
+}
+/* 
+@media (max-width: 475px) {
+  .menu_exchange a {
+    width: initial;
+  }
+
+   .menu_exchange a span{
+    display: none;
+  }
+} */
