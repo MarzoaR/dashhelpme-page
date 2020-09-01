@@ -152,6 +152,12 @@ p {
   color: var(--primary-color);
 }
 
+/* estilos unicos por seccion */
+
+#qDash .container {
+  padding-top: 150px;
+}
+
 
 
 /******************** Responsive ********************/
@@ -179,4 +185,5 @@ p {
   .container__content--img {
     width: 150px;
   }
+
 }

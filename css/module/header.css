@@ -3,15 +3,16 @@ header {
   width: 100%;
   max-width: 1920px;
   /* height: 100%; */
-  height: calc(100vh - 25px);
+  height: 100vh;
+  max-height: 864px;
   /* max-height: 735px !important; */
   background-image: var(--background-color-pricipal);
-  border-radius: 0 0 0px 200px;
+  /* border-radius: 0 0 0px 200px; */
 }
 
 header .container {
   position: absolute;
-  bottom: 25px;
+  top: 30px;
   max-width: 1920px;
   /* max-height: 735px !important; */
 }
@@ -41,6 +42,62 @@ header .container__content--img {
   background-color: brown;
 } */
 
+/******************** botones de consulta ********************/
+
+.consulta {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 200px;
+  z-index: 999;
+  background-color: #0b58a9;
+  border-radius: 50px;
+}
+
+.consulta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.consulta div {
+  margin: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.consulta div span {
+  padding-top: 10px;
+  display: block;
+}
+
+.consulta .boton {
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: var(--secundary-color-fonts);
+  margin: auto;
+}
+
+.consulta .boton i {
+  font-size: 50px;
+  color: #fff;
+  /* line-height: 45px; */
+}
+
+@media (min-width: 770px) and (max-width: 1024px){
+  .consulta {
+    width: 70%;
+  }
+}
+
 @media (max-width: 769px) {
   header {
     min-height: 100vh;
@@ -60,12 +117,31 @@ header .container__content--img {
     font-size: 35px;
   }
 
-
-
   header .header--img {
     max-height: fit-content;
     width: 80%;
   }
+
+  .consulta {
+    justify-content: center;
+    background: none;
+    bottom: 40px;
+    width: 100%;
+  }
+
+  .consulta div {
+    width: 40%;
+    margin: 0;
+  }
+
+  .consulta .boton {
+    width: 45px;
+    height: 45px;
+  }
+  .consulta .boton i {
+    font-size: 30px;
+  }
+
 }
 
 /* @media (max-height: 769px) {
@@ -77,8 +153,29 @@ header .container__content--img {
     display: none;
   }
 } */
-@media (min-height: 864px) {
+/* @media (min-height: 864px) and (max-height: 1024px){
   header {
-    max-height: 950px;
+    height: 950px;
+  }
+  .none {
+    display: flex;
+  }
+} */
+/* 
+@media (min-height: 500px) and (orientation: landscape){
+  header {
+    height: 950px;
+  }
+  .none {
+    display: flex;
+  }
+} */
+
+@media (max-height: 812px) and (orientation: portrait) {
+  header {
+    min-height: 812px;
+  }
+  .none {
+    display: none;
   }
 }
