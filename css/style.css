@@ -167,6 +167,7 @@ p {
 
   .container {
     flex-direction: column;
+    padding: 50px 0;
   }
   .container--reverse {
     flex-direction: column-reverse;
@@ -184,6 +185,10 @@ p {
 
   .container__content--img {
     width: 150px;
+  }
+
+  #qDash .container {
+    padding-top: 50px;
   }
 
 }

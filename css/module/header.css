@@ -103,6 +103,7 @@ header .container__content--img {
     min-height: 100vh;
   }
   header .container {
+    /* top: 0; */
     padding-bottom: 35px;
     position: relative;
   }
@@ -123,10 +124,13 @@ header .container__content--img {
   }
 
   .consulta {
+    position: initial;
+    transform: translateX(0);
     justify-content: center;
     background: none;
     bottom: 40px;
     width: 100%;
+    margin-top: 35px;
   }
 
   .consulta div {
@@ -173,7 +177,7 @@ header .container__content--img {
 
 @media (max-height: 812px) and (orientation: portrait) {
   header {
-    min-height: 812px;
+    min-height: 780px;
   }
   .none {
     display: none;
