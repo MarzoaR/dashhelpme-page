@@ -12,11 +12,13 @@ let currentcy_ves = document.querySelector('#currentcy-ves');
         let USD, VES;
         let usd = myJson[0].nested[0].price;
         let ves = myJson[0].price*1.015;
-        USD = new Intl.NumberFormat("de-DE", {style: "currency", currency: "USD"}).format(usd);
-        VES = new Intl.NumberFormat("de-DE", {style: "currency", currency: "VES"}).format(ves);
+        // USD = new Intl.NumberFormat("de-DE", {style: "currency", currency: "USD"}).format(usd);
+        USD = new Intl.NumberFormat("de-DE", {maximumFractionDigits: 2}).format(usd);
+        // VES = new Intl.NumberFormat("de-DE", {style: "currency", currency: "VES"}).format(ves);
+        VES = new Intl.NumberFormat("de-DE", {maximumFractionDigits: 2}).format(ves);
 
-        currentcy_dollar.innerHTML = `${USD}`;
-        currentcy_ves.innerHTML = `${VES}`;
+        currentcy_dollar.innerHTML = `$ ${USD}`;
+        currentcy_ves.innerHTML = `VES ${VES}`;
       });
   }
   getCurrentcy();
