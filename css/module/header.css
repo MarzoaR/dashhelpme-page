@@ -1,7 +1,7 @@
 header {
   position: relative;
   width: 100%;
-  max-width: 1920px;
+  /* max-width: 1920px; */
   /* height: 100%; */
   height: 100vh;
   max-height: 864px;
@@ -15,6 +15,8 @@ header .container {
   top: 30px;
   max-width: 1920px;
   /* max-height: 735px !important; */
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 header .container--header {
@@ -50,6 +52,7 @@ header .container__content--img {
   left: 50%;
   transform: translateX(-50%);
   width: 60%;
+  max-width: 1152px;
   height: 200px;
   z-index: 999;
   background-color: #0b58a9;

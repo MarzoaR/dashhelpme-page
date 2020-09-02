@@ -10,6 +10,11 @@
   width: auto;
 }
 
+#cCambio__gDash #splide01{
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 #ranking .container {
   padding: 0;
 }

@@ -10,6 +10,7 @@ html {
   width: 80%;
   margin: auto;
   padding: 50px 0;
+  max-width: 1920px;
 }
 
 table {
@@ -159,3 +160,18 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     display: none;
   }
 } */
+@media (max-width: 800px) {
+
+  /* ---------------------- Header ---------------------- */
+  .container__pages--header {
+    padding: 50px 0;
+  }
+  .header--page--img {
+    display: none;
+  }
+  .groupText--header {
+    width: 80%;
+    text-align: center;
+  }
+
+}

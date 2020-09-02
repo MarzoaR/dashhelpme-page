@@ -4,12 +4,12 @@
   --background-color-footer: linear-gradient(#12A6FF, #05145E);
 }
 
-body {
-  max-width: 1920px;
-  margin: 0 auto;
+/* body { */
+  /* max-width: 1920px; */
+  /* margin: 0 auto; */
   /* border-right: 1px solid #12a4ff36; */
   /* border-left: 1px solid #12a4ff36; */
-}
+/* } */
 
 footer {
   width: 100%;
@@ -22,6 +22,8 @@ footer .container{
   align-items: initial;
   flex-wrap: wrap;
   padding: 50px 0;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 footer .container__content {
@@ -32,7 +34,7 @@ footer .container__content {
 }
 
 footer .container__content .logo_footer {
-  width: 90%;
+  width: 75%;
 }
 
 footer .container__content p {
