@@ -157,20 +157,6 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 
 }
 
-@media (max-width: 475px) {
-  .menu_exchange a {
-    width: initial;
-  }
-
-   .menu_exchange a span{
-    display: none;
-  }
-}
-
-
-
-
-
 /****************************** Prueba tabs ******************************/
 
 
@@ -254,4 +240,22 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 
 .exchanges--tabs section{
   padding: 10px 0;
+}
+
+
+/*************************************************** Responsive ***************************************************/
+
+
+@media (max-width: 475px) {
+  .menu_exchange a {
+    width: initial;
+  }
+
+   .menu_exchange a span{
+    display: none;
+  }
+
+  .exchanges--tabs ul li {
+    height: 25px;
+  }
 }
