@@ -19,6 +19,10 @@ table {
   margin-bottom: 100px;
 }
 
+table caption h2 {
+  font-size: 30px;
+}
+
 tr {
   border-top: 2px solid #eee;
 }
@@ -49,6 +53,10 @@ td a {
   color: var(--color-font-principal-table);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+td a h4 {
+  text-transform: capitalize;
 }
 
 td a i {
@@ -215,9 +223,9 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   flex-wrap: wrap;
 }
 .exchanges--tabs ul li{
-  padding: 15px 10px 0px;
-  width: 100px;
-  height: 40px;
+  padding: 5px 10px;
+  /* width: 100px; */
+  /* height: 40px; */
   /* outline: 1px solid red; */
   display: flex;
   justify-content: center;
@@ -239,8 +247,8 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }*/
 .exchanges--tabs label span{
   font-family: 'Montserrat', sans-serif;
-  /* padding-left: 5px;
-  font-size: 13px; */
+  /* padding-left: 5px;*/
+  font-size: 13px;
   text-transform: capitalize;
 }
 
