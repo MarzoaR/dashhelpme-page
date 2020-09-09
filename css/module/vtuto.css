@@ -31,7 +31,6 @@
 
 .video-tutoriales__container--video:hover {
   transform: translateY(-5px);
-  /* box-shadow: 1px 1px 40px 0 rgba(88,102,126,.08),1px 1px 2px 0 rgba(88,102,126,.12); */
   box-shadow: 1px 1px 40px 0 #008de420, 1px 1px 2px 0 #008de424;
 }
 
