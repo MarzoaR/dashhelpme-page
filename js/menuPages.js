@@ -40,10 +40,10 @@ window.addEventListener('scroll', () => {
 
 
   if(window.scrollY > 100 && window.innerWidth > 900) {
-    img.setAttribute('src', '../img/logo/dashHelpColor.svg');
+    img.setAttribute('src', '../../img/logo/dashHelpColor.svg');
     nav.setAttribute('height', '80px');
   } else {
-    img.setAttribute('src', '../img/logo/dashHelpWhite.svg');
+    img.setAttribute('src', '../../img/logo/dashHelpWhite.svg');
     nav.setAttribute('height', '100px');
   }
 });
