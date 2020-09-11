@@ -87,6 +87,23 @@
   width: 75%;
 }
 
+.breadcrumbs {
+  text-align: right;
+}
+
+.breadcrumbs a{
+  position: relative;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(47, 122, 207);
+}
+
+.breadcrumbs a i{
+  position: absolute;
+  top: 2px;
+  left: -15px;
+}
+
 .info__question {
   padding: 0 10px;
   text-align: left;
