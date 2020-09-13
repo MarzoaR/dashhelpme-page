@@ -14,7 +14,6 @@ function ranking(API) {
       rank.innerHTML = `#${myrank.ranking}`
       capitalization.innerHTML = `+$${myrank.cap}MM`
       volume.innerHTML = `+$${myrank.volume}MM`
-
     }).catch(err => {
       console.log(err)
     })

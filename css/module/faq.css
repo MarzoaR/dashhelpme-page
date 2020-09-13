@@ -61,7 +61,7 @@
 }
 .aside__container h5 {
   color: #000;
-  margin: 10px;
+  margin: 10 0px;
   font-size: 20px;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .breadcrumbs {
-  text-align: right;
+  text-align: left;
 }
 
 .breadcrumbs a{
