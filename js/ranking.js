@@ -12,7 +12,7 @@ function ranking(API) {
     .then(myrank => {
 
       rank.innerHTML = `#${myrank.ranking}`
-      capitalization.innerHTML = `+$${myrank.cap}MM`
+      capitalization.innerHTML = `+$${myrank.cap}M`
       volume.innerHTML = `+$${myrank.volume}MM`
     }).catch(err => {
       console.log(err)
