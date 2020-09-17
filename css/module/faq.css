@@ -72,7 +72,8 @@
 .aside__container ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 5px 0 0;
+  border-right: 2px solid rgb(47, 122, 207);
 }
 
 .aside__container ul li a{
@@ -105,13 +106,108 @@
 }
 
 .info__question {
-  padding: 0 10px;
+  padding: 0 10px 0 40px;
   text-align: left;
 }
 
 .info__question h3 {
   font-size: 25px;
 }
+
+
+
+/* Accordion */
+
+.question {
+  margin-top: 10px;
+}
+
+button.accordion {
+  position: relative;
+  /* background: #dd1c1a; */
+  background: none;
+  /* color: #fff; */
+  cursor: pointer;
+  border: 0px;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  transition: .4s;
+}
+
+button:focus {
+  outline: none;
+}
+
+.accordion span {
+  width: 90%;
+  display: inline-block;
+}
+
+.accordion i {
+  position: absolute;
+  right: 20px;
+  margin: 0 10px;
+  transition: .4s;
+}
+
+.accordion.active i {
+  transform: rotate(180deg);
+}
+
+/* button.accordion.active, button.accordion:hover {
+  background: #9b0a07;
+} */
+
+.panel {
+  padding: 0 18px;
+  color: #000;
+  max-height: 0;
+  overflow: hidden;
+  /* width: 67.45%; */
+  /* margin: 0 auto; */
+  transition: max-height .2s ease-out;
+}
+/* 
+.panel p {
+  width: 100%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*********************************************** Responsive ***********************************************/
 
@@ -133,14 +229,8 @@
     top: 80px;
     left: -300px;
     background-color: rgb(47, 122, 207);
-    /* transform: translateX(-100px); */
-    /* border: 1px solid rgb(31, 80, 136); */
-    
     transition: 0.5s;
-    
-
-    z-index: 0;
-    /* outline: 1px solid red; */
+    z-index: 1;
   }
 
   .aside__container h5 {
@@ -161,6 +251,8 @@
   .aside__container ul {
     position: relative;
     z-index: 10;
+    padding: 0;
+    border-right: none;
   }
   /* .aside__container ul li {
     border-bottom: 1px solid rgb(31, 80, 136);
@@ -195,9 +287,15 @@
     right: 9px;
     color: #fff;
   }
+/* Fin Aside */
+
 
   .info__container {
     width: 100%;
+  }
+
+  .info__question {
+    padding: 0 10px;
   }
 }
 
@@ -215,4 +313,12 @@
     font-size: 30px;
   }
 
+  .accordion i {
+    right: -20px;
+    top: 20px;
+  }
+
+  button.accordion {
+    padding-left: 0;
+  }
 }
