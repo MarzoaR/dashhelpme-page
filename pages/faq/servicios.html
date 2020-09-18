@@ -175,8 +175,59 @@
           <div class="breadcrumbs">
             <a href="../faq.html"><i class="fas fa-chevron-left"></i>Faq</a>
           </div>
-          <h3>¿Pregunta?</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maiores consequuntur atque, accusamus, laborum provident sit veritatis praesentium modi corrupti hic quas repellendus non saepe necessitatibus neque ut nesciunt ea.</p>
+
+          <div class="question">
+            <button class="accordion" type="button">
+              <span>¿Qué es InstantSend?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+              <p>Es una tecnología implementada por la red de DASH, a través de la intervención de los Nodos Maestros, quienes procesan y bloquean los fondos de las transacciones realizadas a fin de prevenir el problema del Doble Gasto y garantizar la irreversibilidad de una transacción realizada aunque esta posea cero confirmaciones, todo esto a cambio de una comisión por transacción levemente superior, permaneciendo siempre por debajo de los pocos centavos de dólar (0.001-0.00001 Dash).</p>
+              <p>Actualmente debido a los Chainlocks, la modalidad de InstantSend es automática en la billeteras oficiales de Dash.</p>
+            </div>
+          </div>
+
+          <div class="question">
+            <button class="accordion" type="button">
+              <span>¿Qué es PrivateSend?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+              <p>Es un mecanismo (automático en las wallets para dispositivos móviles, opcional en la versión de escritorio) para “ocultar” la fuente directa de los fondos de una transacción, cuya función es la de garantizar la privacidad financiera entre los usuarios.</p>
+            </div>
+          </div>
+
+          <div class="question">
+            <button class="accordion" type="button">
+              <span>¿Cómo funciona el servicio de PrivateSend?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+              <p>Es un proceso que ocurre en segundo plano y de forma transparente para el usuario en el cual los servidores de los nodos maestros se encargar de “mezclar” los fondos que enviamos con fondos que otros usuarios envían, hasta alcanzar la cantidad de DASH solicitada/enviada. Al mezclar los fondos de esta forma, se previene que las direcciones de envío de los usuarios puedan ser rastreados por terceras personas, garantizando anonimato y privacidad.</p>
+            </div>
+          </div>
+
+          <div class="question">
+            <button class="accordion" type="button">
+              <span>¿Cómo puedo subir una propuesta en la red de DASH?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+              <p>Para generar una propuesta a la red de DASH debe ingresar en el siguiente link <a href="https://proposal.dash.org/" target="_blank" rel="noopener noreferrer">https://proposal.dash.org/</a> y colocar los detalles de la misma, lo cual te suministrará un Token que deberá ser ingresado. El hecho de realizar la propuesta en la red tiene un costo de 5 DASH. Para mayor detalle se suministra el siguiente enlace: <a href="https://docs.dash.org/en/latest/governance/using.html#creating-proposals" target="_blank" rel="noopener noreferrer">https://docs.dash.org/en/latest/governance/using.html#creating-proposals</a></p>
+            </div>
+          </div>
+
+          <div class="question">
+            <button class="accordion" type="button">
+              <span>¿Qué son los ChainLocks?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+              <p>Son la nueva herramienta implementada por Dash para auditar la información que se registre el cadena de bloques a través de un voto verificable lo cual garantiza que las transacciones sean válidas a partir de 1 confirmación y además minimiza la posibilidad de ataque del 51% ya que esta modalidad imposibilita a los mineros la eliminación y reorganización de los bloques de la cadena de bloques.</p>
+              <p>Este proceso se realiza mediante Long Living Masternode Quorums (LLMQs), en los cuales se eligen cientos de Nodos Maestros (MNOs) de manera aleatoria para cada bloque. Durante dicho proceso cada MNO firma el primer bloque que se va extendiendo de la cadena de bloques. Cuando haya quorum con respecto a la secuencia de la cadena de bloques, se procederá a crear un mensaje peer-to-peer (CLSIG) que se enviará al resto de los MNOs a fines de que estos puedan verificar la información a través de una llave pública y así puedan adaptar su cadena a la cadena de bloques válida.</p>
+            </div>
+          </div>
+
         </div>
       </section>
     </section>
@@ -263,6 +314,7 @@
       </div>
     </section>
   </footer>
+  <script src="../../js/accordion.js"></script>
   <script src="../../js/aside.js"></script>
   <script src="https://kit.fontawesome.com/2973452ace.js"></script>
   <script src="../../js/menuPages.js"></script>

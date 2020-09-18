@@ -130,11 +130,16 @@ button.accordion {
   cursor: pointer;
   border: 0px;
   padding: 18px;
+  padding-left: 0;
   width: 100%;
   text-align: left;
   font-size: 18px;
   transition: .4s;
 }
+
+/* button.accordion {
+  padding-left: 0;
+} */
 
 button:focus {
   outline: none;
@@ -316,9 +321,5 @@ button:focus {
   .accordion i {
     right: -20px;
     top: 20px;
-  }
-
-  button.accordion {
-    padding-left: 0;
   }
 }
