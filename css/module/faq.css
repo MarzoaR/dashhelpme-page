@@ -86,6 +86,7 @@
 
 .aside__container ul li a.active__aside {
   color:rgb(47, 122, 207);
+  font-weight: bold;
 }
 
 .info__container {
@@ -271,6 +272,10 @@ button:focus {
   } */
 
   .aside__container ul li a {
+    color: #fff;
+  }
+
+  .aside__container ul li a.active__aside {
     color: #fff;
   }
 
