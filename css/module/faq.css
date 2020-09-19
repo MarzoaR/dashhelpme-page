@@ -84,6 +84,10 @@
   color: #000;
 }
 
+.aside__container ul li a.active__aside {
+  color:rgb(47, 122, 207);
+}
+
 .info__container {
   width: 75%;
 }
