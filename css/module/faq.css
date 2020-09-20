@@ -125,6 +125,8 @@
 
 .question {
   margin-top: 10px;
+  border-radius: 10px;
+box-shadow: 1px 1px 40px 0 rgba(88,102,126,.08),1px 1px 2px 0 rgba(88,102,126,.12);
 }
 
 button.accordion {
@@ -134,8 +136,7 @@ button.accordion {
   /* color: #fff; */
   cursor: pointer;
   border: 0px;
-  padding: 18px;
-  padding-left: 0;
+  padding: 18px 18px 18px 40px;
   width: 100%;
   text-align: left;
   font-size: 18px;
@@ -151,14 +152,15 @@ button:focus {
 }
 
 .accordion span {
-  width: 90%;
+  width: 100%;
   display: inline-block;
 }
 
 .accordion i {
   position: absolute;
-  right: 20px;
-  margin: 0 10px;
+  top: 20px;
+  left: 10px;
+  /* margin: 0 10px; */
   transition: .4s;
 }
 
@@ -327,8 +329,8 @@ button:focus {
     font-size: 30px;
   }
 
-  .accordion i {
+  /* .accordion i {
     right: -20px;
     top: 20px;
-  }
+  } */
 }
