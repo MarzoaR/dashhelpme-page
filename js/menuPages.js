@@ -11,7 +11,7 @@ let currentcy_ves = document.querySelector('#currentcy-ves');
       .then(myJson => {
         let USD, VES;
         let usd = myJson[0].nested[0].price;
-        let ves = myJson[0].price*1.015;
+        let ves = myJson[0].price*1.01;
         // USD = new Intl.NumberFormat("de-DE", {style: "currency", currency: "USD"}).format(usd);
         USD = new Intl.NumberFormat("de-DE", {maximumFractionDigits: 2}).format(usd);
         // VES = new Intl.NumberFormat("de-DE", {style: "currency", currency: "VES"}).format(ves);
