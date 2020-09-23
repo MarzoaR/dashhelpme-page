@@ -75,6 +75,7 @@ header .container__content--img {
 .consulta div span {
   padding-top: 10px;
   display: block;
+  font-family: var(--secundary-fonts);
 }
 
 .consulta .boton {
