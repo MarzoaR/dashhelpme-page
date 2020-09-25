@@ -22,7 +22,7 @@
   /* tipografias */
   --primary-fonts: 'Montserrat', sans-serif;
   --secundary-fonts: 'Open Sans', sans-serif;
-  --primary-size-fonts: 1em;
+  --primary-size-fonts: 1rem;
 }
 
 body {
