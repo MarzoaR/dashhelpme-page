@@ -85,7 +85,7 @@ function convert() {
   }
 
   if(valor) {
-    result.innerHTML = new Intl.NumberFormat("en-VE").format(valor)
+    result.innerHTML = new Intl.NumberFormat("en-VE", {minimumFractionDigits:8}).format(valor)
   }else {
     result.innerHTML = "0"
   }
