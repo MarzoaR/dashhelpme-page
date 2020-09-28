@@ -1,0 +1,80 @@
+.container {
+  justify-content: space-evenly !important;
+}
+
+.calculator {
+  position: relative;
+  width: 40%;
+  margin: 30px 0;
+}
+
+.calculator select, .calculator input, .calculator span {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  height: 30px;
+  font-size: 1rem;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  font-family: var(--secundary-fonts);
+}
+
+.calculator input, .calculator span {
+  font-size: 2rem;
+  color: #008de4a6;
+  width: calc(100% - 20px);
+  border-bottom: 1px solid #05176179;
+}
+
+/* .calculator input {
+  font-size: 2rem;
+  color: #008de4a6;
+  width: calc(100% - 20px);
+  border-bottom: 1px solid #05176179;
+} */
+
+.calculator span {
+  display: inline-block;
+  /* font-size: 2rem;
+  color: #008de4a6;
+  border-bottom: 1px solid #05176179; */
+}
+
+.calculator select {
+  font-size: 1rem;
+  height: 50px;
+  box-shadow: 1px 1px 40px 0 #008de420, 1px 1px 2px 0 #008de424;
+  cursor: pointer;  
+  background-image: url("../../img/angle-down-solid.svg");
+  background-repeat: no-repeat;
+  background-position: right 1rem top 50%, 0 0;
+  background-size: .9em auto, 100%;
+  /* background-color: #051c67; */
+}
+
+i.fa-arrow-down, i.fa-arrow-right {
+  font-size: 2rem;
+}
+
+i.fa-arrow-down {
+  display: none;
+}
+i.fa-arrow-right {
+  display: block;
+}
+
+@media (max-width: 769px) {
+  .calculator {
+    width: 90%;
+  }
+
+  i.fa-arrow-down {
+    display: block;
+  }
+  i.fa-arrow-right {
+    display: none;
+  }
+
+}
