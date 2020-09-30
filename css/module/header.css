@@ -44,6 +44,26 @@ header .container__content--img {
   background-color: brown;
 } */
 
+h1#text {
+  position: relative;
+  text-transform: uppercase;
+}
+
+h1#text span {
+  position: absolute;
+  /* color: #0f0; */
+  /* display: none; */
+  opacity: 0;
+  transition: all 1s;
+  /* left: 5px; */
+  padding-left: 20px;
+  font-weight: 900;
+}
+
+h1#text span:first-child {
+  display: initial;
+}
+
 /******************** botones de consulta ********************/
 
 .consulta {
