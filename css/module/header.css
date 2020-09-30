@@ -46,8 +46,8 @@ header .container__content--img {
 
 h1#text {
   position: relative;
-  text-transform: uppercase;
-  margin-bottom: 65px;
+  /* text-transform: uppercase; */
+  margin-bottom: 95px;
 }
 
 h1#text span {
@@ -59,6 +59,8 @@ h1#text span {
   /* left: 5px; */
   /* padding-left: 20px; */
   font-weight: 900;
+  font-size: 80px;
+  text-transform: uppercase;
 }
 
 h1#text span:first-child {
@@ -170,10 +172,13 @@ h1#text span:first-child {
   .consulta .boton i {
     font-size: 30px;
   }
-
+  h1#text {
+    margin-bottom: 65px;
+  }
   h1#text span {
     left: 50%;
     transform: translateX(-50%);
+    font-size: 50px;
   }
 
 }
