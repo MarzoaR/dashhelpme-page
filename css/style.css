@@ -85,6 +85,22 @@ p, a {
   width: 80%;
 }
 
+.content__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content--img {
+  width: 45%;
+  text-align: center;
+}
+
+.content--img img{
+  width: 130px;
+}
+
 .container__content--btn {
   margin-top: 35px;
 }
@@ -197,6 +213,10 @@ p, a {
 
   .container__content--img {
     width: 150px;
+  }
+
+  .content--img img{
+    width: 100px;
   }
 
   #qDash .container {
