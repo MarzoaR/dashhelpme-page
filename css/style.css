@@ -88,17 +88,23 @@ p, a {
 .content__img {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
 .content--img {
   width: 45%;
   text-align: center;
+  margin: 20px 0;
 }
 
 .content--img img{
   width: 130px;
+}
+
+.content--img p{
+  color: var(--secundary-color-fonts);
+  font-weight: bold;
 }
 
 .container__content--btn {
